@@ -1,0 +1,1 @@
+{"version":1,"functions":{"/api/auth/logout":{},"/api/auth/verify":{},"/api/auth/login":{},"/api/guests/[id]":{},"/api/stays":{},"/api/guests/export":{},"/api/guests":{},"/api/stays/[id]":{},"/api/guests/search":{}}}

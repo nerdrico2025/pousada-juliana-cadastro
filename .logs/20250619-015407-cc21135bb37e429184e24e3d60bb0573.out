@@ -1,0 +1,167 @@
+sending incremental file list
+components.json
+next-env.d.ts
+next.config.js
+package.json
+postcss.config.js
+tailwind.config.ts
+tsconfig.json
+app/
+app/globals.css
+app/layout.tsx
+app/page.tsx
+app/admin/
+app/admin/page.tsx
+app/admin/dashboard/
+app/admin/dashboard/page.tsx
+app/api/
+app/api/auth/
+app/api/auth/login/
+app/api/auth/login/route.ts
+app/api/auth/logout/
+app/api/auth/logout/route.ts
+app/api/auth/verify/
+app/api/auth/verify/route.ts
+app/api/guests/
+app/api/guests/route.ts
+app/api/guests/[id]/
+app/api/guests/[id]/route.ts
+app/api/guests/export/
+app/api/guests/export/route.ts
+app/api/guests/search/
+app/api/guests/search/route.ts
+app/api/stays/
+app/api/stays/route.ts
+app/api/stays/[id]/
+app/api/stays/[id]/route.ts
+app/cadastrar/
+app/cadastrar/page.tsx
+app/confirmacao-checkin/
+app/confirmacao-checkin/page.tsx
+app/consultar/
+app/consultar/page.tsx
+app/editar/
+app/editar/[id]/
+app/editar/[id]/page.tsx
+app/novo-checkin/
+app/novo-checkin/[id]/
+app/novo-checkin/[id]/page.tsx
+app/sucesso/
+app/sucesso/page.tsx
+components/
+components/theme-provider.tsx
+components/ui/
+components/ui/accordion.tsx
+components/ui/alert-dialog.tsx
+components/ui/alert.tsx
+components/ui/aspect-ratio.tsx
+components/ui/avatar.tsx
+components/ui/badge.tsx
+components/ui/breadcrumb.tsx
+components/ui/button.tsx
+components/ui/calendar.tsx
+components/ui/card.tsx
+components/ui/carousel.tsx
+components/ui/checkbox.tsx
+components/ui/collapsible.tsx
+components/ui/command.tsx
+components/ui/context-menu.tsx
+components/ui/date-range-picker.tsx
+components/ui/dialog.tsx
+components/ui/drawer.tsx
+components/ui/dropdown-menu.tsx
+components/ui/form.tsx
+components/ui/hover-card.tsx
+components/ui/input-otp.tsx
+components/ui/input.tsx
+components/ui/label.tsx
+components/ui/menubar.tsx
+components/ui/navigation-menu.tsx
+components/ui/pagination.tsx
+components/ui/popover.tsx
+components/ui/progress.tsx
+components/ui/radio-group.tsx
+components/ui/resizable.tsx
+components/ui/scroll-area.tsx
+components/ui/select.tsx
+components/ui/separator.tsx
+components/ui/sheet.tsx
+components/ui/skeleton.tsx
+components/ui/slider.tsx
+components/ui/sonner.tsx
+components/ui/switch.tsx
+components/ui/table.tsx
+components/ui/tabs.tsx
+components/ui/task-card.tsx
+components/ui/textarea.tsx
+components/ui/toast.tsx
+components/ui/toaster.tsx
+components/ui/toggle-group.tsx
+components/ui/toggle.tsx
+components/ui/tooltip.tsx
+components/ui/use-toast.ts
+hooks/
+hooks/use-toast.ts
+lib/
+lib/db.ts
+lib/types.ts
+lib/utils.ts
+lib/db/
+prisma/
+prisma/schema.prisma
+scripts/
+scripts/seed.ts
+
+sent 255,764 bytes  received 1,737 bytes  171,667.33 bytes/sec
+total size is 249,307  speedup is 0.97
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.28
+  - Experiments (use with caution):
+    · outputFileTracingRoot
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/10) ...
+   Generating static pages (2/10) 
+   Generating static pages (4/10) 
+   Generating static pages (7/10) 
+ ✓ Generating static pages (10/10)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    1.8 kB          130 kB
+├ ○ /_not-found                          873 B            88 kB
+├ ○ /admin                               1.93 kB         122 kB
+├ ○ /admin/dashboard                     3.81 kB         132 kB
+├ ƒ /api/auth/login                      0 B                0 B
+├ ƒ /api/auth/logout                     0 B                0 B
+├ ƒ /api/auth/verify                     0 B                0 B
+├ ƒ /api/guests                          0 B                0 B
+├ ƒ /api/guests/[id]                     0 B                0 B
+├ ƒ /api/guests/export                   0 B                0 B
+├ ƒ /api/guests/search                   0 B                0 B
+├ ƒ /api/stays                           0 B                0 B
+├ ƒ /api/stays/[id]                      0 B                0 B
+├ ○ /cadastrar                           2.75 kB         131 kB
+├ ○ /confirmacao-checkin                 10.1 kB         130 kB
+├ ○ /consultar                           3.28 kB         132 kB
+├ ƒ /editar/[id]                         2.9 kB          131 kB
+├ ƒ /novo-checkin/[id]                   2.43 kB         131 kB
+└ ○ /sucesso                             1.22 kB         130 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-b80e443e6fdc34d4.js       31.6 kB
+  ├ chunks/fd9d1056-54ff278e367f82d8.js  53.6 kB
+  └ other shared chunks (total)          1.89 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
