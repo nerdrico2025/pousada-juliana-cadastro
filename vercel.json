@@ -1,4 +1,16 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "outputDirectory": "build"
+  "framework": "nextjs",
+  "buildCommand": "cd app && npm ci && npm run build",
+  "outputDirectory": "app/.next",
+  "installCommand": "cd app && npm ci",
+  "devCommand": "cd app && npm run dev",
+  "rootDirectory": "./",
+  "functions": {
+    "app/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
